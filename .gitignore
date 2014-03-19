@@ -1,5 +1,6 @@
 /.idea/
 /build/
+/RoboVM\ App*
 /resources/output/
 .gradle
 *.iml
