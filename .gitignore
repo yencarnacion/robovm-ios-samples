@@ -1,5 +1,5 @@
 /.idea/
-/build/
+build/
 /RoboVM\ App*
 /resources/output/
 .gradle
