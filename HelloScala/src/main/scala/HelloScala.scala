@@ -7,7 +7,7 @@ class AppDelegate extends UIApplicationDelegate.Adapter {
 
   override def didFinishLaunching(application: UIApplication) {
     val title = new UILabel(new CGRect(0, 0, 200, 100))
-    title.setText("Hello Scala from Robo!")
+    title.setText("Hello Robo from Scala!")
 
     window = new UIWindow(UIScreen.getMainScreen().getBounds())
     window.setBackgroundColor(UIColor.lightGrayColor())
@@ -21,9 +21,7 @@ class AppDelegate extends UIApplicationDelegate.Adapter {
 }
 
 object HelloScala extends App {
-  def main(args: Array[String]) {
       val pool = new NSAutoreleasePool()
       UIApplication.main(args, null, classOf[AppDelegate])
       pool.drain()
-  }
 }

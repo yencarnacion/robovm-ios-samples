@@ -1,43 +1,9 @@
-buildscript {
-    repositories {
-       mavenCentral()
-        maven {
-            url uri('/Users/yamir/Dropbox/Documents/code/projects/gradleplugins/gradle-robovm-plugin/build/repo')
-        }
-    }
-    dependencies {
-       classpath 'org.robovm:robovm-compiler:0.0.10'
-        classpath group: 'com.webninjapr.api.plugins', name: 'gradle-robovm-plugin', version: '0.1'
-    }
+
+project(':HelloJava') {
+
 }
 
+project(':HelloScala') {
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.11'
 }
-
-apply plugin: 'robovm'
-apply plugin: 'scala'
-apply plugin: 'java'
-
-repositories {
-   mavenCentral()
-}
-
-dependencies{
-    compile 'org.robovm:robovm-rt:0.0.10'
-    compile 'org.robovm:robovm-cocoatouch:0.0.10'
-    compile 'org.robovm:robovm-cacerts-full:0.0.10'
-}
-
-
-robovm {
-    mainClass= 'HelloJava'
-    classpath = runtimeClasspath
-}
-
-//scalaHello {
-    //mainClass = 'HelloScala'
-    //classpath = sourceSets.main.runtimeClasspath
-//}
 
