@@ -15,9 +15,15 @@ robovm-ios-samples
 
 ## Usage
 
-If you've setup your 'ios' project to use RobovmProject:
+To see the Java Sample in Action:
 ```bash
-$ gradle build
-$ gradlew compileRobovm 
+$ gradlew :HelloJava:compileJava
+$ gradlew :HelloJava:compileRobovm
+```
+
+To see the Scala Sample in Action:
+```bash
+$ gradlew :HelloScala:compileScala
+$ gradlew :HelloScala:compileRobovm
 ```
 
