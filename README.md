@@ -1,6 +1,10 @@
 robovm-ios-samples
 ==========
 
+robovm-ios-samples is copyrighted free software by Yamir Encarnación <yencarnacion@webninjapr.com>. You can redistribute it and/or modify it under the terms of the MIT License (see the file MIT.txt).
+
+The purpose of robovm-ios-samples is to show the [gradle-robovm-plugin](https://github.com/yencarnacion/gradle-robovm-plugin) in action.
+
 ## Setup
 
 1. Install Xcode (tested with 5.1)
